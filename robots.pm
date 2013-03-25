@@ -554,7 +554,7 @@
 'poppi',
 'portalb',
 'psbot',
-'python',
+#python',
 'raven',
 'rbse',
 'resumerobot',
@@ -1076,9 +1076,9 @@
 'zemanta',
 'zend_http_client',
 # Other id that are 99% of robots
-'wget',
-'libwww',
-'^java\/[0-9]'   # put at end to avoid false positive
+#'wget',
+#'libwww',
+#'^java\/[0-9]'   # put at end to avoid false positive
 );
 @RobotsSearchIDOrder_listgen = (
 # Generic robot
@@ -1092,9 +1092,9 @@
 'sucker',
 'bot[\s_+:,\.\;\/\\\-]',
 '[\s_+:,\.\;\/\\\-]bot',
-'curl',
-'php',
-'ruby\/',
+#'curl',
+#'php',
+#'ruby\/',
 'no_user_agent'
 );
 
@@ -1326,7 +1326,7 @@
 'poppi','Poppi',
 'portalb','PortalB Spider',
 'psbot','<a href="http://www.picsearch.com/bot.html" title="Bot home page" target="_blank">psbot</a>',
-'python','<a href="http://docs.python.org/library/urllib.html" title="Tools developed using a Python library" target="_blank">Python-urllib</a>',
+#'python','<a href="http://docs.python.org/library/urllib.html" title="Tools developed using a Python library" target="_blank">Python-urllib</a>',
 'raven','Raven Search',
 'rbse','RBSE Spider',
 'resumerobot','Resume Robot',
@@ -1738,9 +1738,9 @@
 'ng\/2\.','<a href="http://www.exabot.com/" title="Bot home page [new window]" target="_blank">NG 2.x (Exalead)</a>', # put at end to avoid false positive
 'exabot','<a href="http://www.exabot.com/" title="Bot home page [new window]" target="_blank">Exabot</a>', # put at end to avoid false positive
 # Other id that are 99% of robots
-'wget','WGet tools',
-'libwww','Perl tool',
-'^java\/[0-9]','<a href="http://www.projecthoneypot.org/harvester_useragents.php" title="Bot home page [new window]" target="_blank">Java (Often spam bot)</a>', # put at end to avoid false positive
+#'wget','WGet tools',
+#'libwww','Perl tool',
+#'^java\/[0-9]','<a href="http://www.projecthoneypot.org/harvester_useragents.php" title="Bot home page [new window]" target="_blank">Java (Often spam bot)</a>', # put at end to avoid false positive
 # Generic robot
 'robot', 'Unknown robot (identified by \'robot\')',
 'checker', 'Unknown robot (identified by \'checker\')',
@@ -1752,9 +1752,9 @@
 'sucker', 'Unknown robot (identified by \'sucker\')',
 'bot[\s_+:,\.\;\/\\\-]','Unknown robot (identified by \'bot*\')',
 '[\s_+:,\.\;\/\\\-]bot','Unknown robot (identified by \'*bot\')',
-'curl', 'Common *nix tool for automating web document retireval. Most likely a bot.',
-'php', 'A PHP script', 
-'ruby\/', 'Ruby script', 
+#'curl', 'Common *nix tool for automating web document retireval. Most likely a bot.',
+#'php', 'A PHP script', 
+#'ruby\/', 'Ruby script', 
 # Additional bots found by Sussex.
 '^[1-3]$', 'Generic bot identified as "1", "2" or "3"',
 'alltop', 'alltop',
